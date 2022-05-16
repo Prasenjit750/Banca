@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {min-width: 1200px;}
+
+/* Header/Banner area start */
+
+.header-area {
+    padding: 20px 0;
+}
+.header-area {
+    background: gainsboro;
+}
+.header-menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: roboto;
+}
+.header-menu ul li {
+    padding: 0 24px;
+}
+section.header-area {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: transparent;
+    z-index: 999;
+}
+.header-menu button {
+    border: none;
+    background: #fff;
+    padding: 11px 25px;
+    border-radius: 22px;
+}
+.header-menu button a {
+    color: #6D27E5;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: roboto;
+    text-decoration: none;
+}
+.banner-content{
+    margin-top: 230px;
+}
+.banner-area{
+    background-image: url(img/shape.svg);
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.banner-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    color: #fff;
+    width: 720px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+
+/* Header/Banner area end */
+
+
+
+/* Counter area start */
+
+.single-counter {
+    text-align: center;
+}
+.counter-bg {
+    background: red;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+.single-counter img {
+    height: 41px;
+    width: 45px;
+    margin-bottom: 17px;
+}
+.single-counter span {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: roboto;
+    text-transform: capitalize;
+}
+.single-counter h5 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: poppins;
+    color: #6D27E5;
+}
+
+/* Counter area end */
+
+
+
+/* security area start */
+
+.security-tips {
+    text-align: center;
+    margin-bottom: 62px;
+}
+.security-tips h2 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.security-part-3 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.security-part-2 {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.security-content p {
+    width: 237px;
+}
+.security-content {
+    margin-left: 40px;
+    text-align: left;
+}
+section.security-tips {
+    background: #E5E5E5;
+    padding: 100px 0;
+}
+.security-content p {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 26px;
+}
+.security-part-3 img {
+    width: 200px;
+    height: 250px;
+}
+.security-part-1 {background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.security-content-1 {
+    padding: 35px 30px;
+    text-align: left;
+}
+
+.security-content-1 h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: Poppins;
+}
+.security-content-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Roboto;
+}
+
+
+/* security area start */
+
+
+
+/* featured area start */
+.featured-head h2 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+.featured-head p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    width: 590px;
+    margin: 0 auto;
+}
+.featured-head {
+    text-align: center;
+    margin-bottom: 68px;
+}
+.featured{
+    background-color: #E5E5E5;
+    padding: 100px 0 195px 0;
+}
+.single-featured {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 270px;
+    height: 298px;
+    text-align: center;
+}
+.single-featured p {
+    width: 215px;
+    margin: 0 auto;
+}
+.single-featured h4 {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.single-featured img {
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+/* featured area end */
+
+
+
+
+/* financial area start */
+
+.financial-area {
+    background: #fff;
+    padding: 100px 0;
+}
+.financial-img img {
+    margin-top: 0px;
+    width: 590px;
+    height: 480px;
+}
+.financial-content h4 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.financial-content p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-bottom: 65.61px;
+}
+.financial-content a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    display: block;
+}
+.financial-content a i {
+    background: #6D27E5;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    align-items: center;
+    line-height: -7px;
+    display: inline-grid;
+    margin-right: 10px;
+}
+.financial-content {
+    margin-top: 125px;
+    width: 400px;
+    margin-left: 258px;
+}
+
+/* financial area end */
+
+
+
+
+/* credit area start */
+.credit-area {
+    background: #E5E5E5;
+    padding: 100px 0;
+}
+.credit-img img {
+    margin-top: 0px;
+    width: 590px;
+    height: 480px;
+}
+.credit-content h4 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.credit-content p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-bottom: 65.61px;
+}
+.credit-content a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    display: block;
+}
+.credit-content a i {
+    background: #6D27E5;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    align-items: center;
+    line-height: -7px;
+    display: inline-grid;
+    margin-right: 10px;
+}
+.credit-content {
+    vertical-align: center;
+    margin-top: 125px;
+    width: 400px;}
+
+/* credit area end */
+
+
+
+/* banking area start */
+
+.banking-area {
+    background: #fff;
+    padding: 100px 0;
+}
+.banking-img img {
+    margin-top: 0px;
+    width: 590px;
+    height: 480px;
+}
+.banking-content h4 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: poppins;
+}
+.banking-content p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    margin-bottom: 65.61px;
+}
+.banking-content a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    display: block;
+}
+.banking-content a i {
+    background: #6D27E5;
+    color: #fff;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    align-items: center;
+    line-height: -7px;
+    display: inline-grid;
+    margin-right: 10px;
+}
+.banking-content {
+    margin-top: 125px;
+    width: 400px;
+    margin-left: 258px;
+}
+
+/* credit area end */
+
+
+/* Client area start */
+.client-heading h2 {
+    text-align:center;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    margin-bottom: 102px;
+}
+.client-area {
+    padding: 110px 0 200px 0;
+}
+.client-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+.client-content p {
+    font-size: 17px;
+    line-height: 28px;
+    font-family: italic;
+    font-weight: 400;
+}
+.client-content h4 {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.client-content span {
+    display: block;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.single-client-box {
+    box-shadow: 0px 0px 2px 0px #334d72;
+    padding: 15px 20px;
+}
+.client-img {
+    margin-bottom: 7px;
+}
+.client-img img {
+    margin-top: -60px;
+}
+.client-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.client-rating i {
+    color: #EFBA34;
+}
+
+
+/* Client area end */
+
+
+
+/* footer latest news area start */
+
+.banca-latest-heading h2 {
+    text-align:center;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    margin-bottom: 78px;
+    margin-top: 100px;
+}
+.banca-latest-news {
+    padding: 50px 0;
+    background-color: #E5E5E5;
+}
+.single-latest-box {
+    box-shadow: 0 0 0 4 red;
+    height: 500px;
+    width: 370px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px -4px #334d72;
+    margin-bottom: 138px;
+}
+.single-latest-img {
+    padding: 9px;
+}
+.single-latest-img img {
+    margin: 0;
+    width: 100%;
+    height: 100;
+    height: 100%;
+}
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #171D24;
+    margin-bottom: 17px;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A737C;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+.single-latest-contact {
+    padding: 8px 30px;
+}
+.single-latest-contact a {
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #6D27E5;
+    text-decoration: none;
+}
+.single-latest-contact p {
+    margin-bottom: 20px;
+}
+.single-latest-contact i{
+    margin-left: 8px;
+}
+
+/* footer latest news area end */
+
+
+
+/* footer area start */
+
+.footer-section{
+    position: relative;
+    background-image: url(img/Rectangle\ 1122.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-area p{
+    color: #fff;
+}
+.footer-icon i {
+    color: #fff;
+    margin-left: 30px 0;
+    padding: 0 30px;
+    padding-left: 0px;
+    font-size: 20px;
+}
+.footer-area img {
+    margin-bottom: 25.4px;
+    margin-top: 119.41px;
+}
+.footer-area p {
+    width: 300px;
+    height: 48px;
+    line-height: 23px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto;
+    margin-bottom: 50px;
+}
+.footer-icon {
+    margin-bottom: 232.5px;
+}
+.footer-bottom-language p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #fff;
+}
+.footer-bottom-language i {
+    margin-left: 9px;
+    font-size: 19px;
+}
+.footer-product h3 {
+    margin-top: 120.6px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppins;
+    margin-bottom: 21.75px;
+    line-height: 27px;
+}
+.footer-product{
+    margin-left: 15px;
+    margin-bottom: 310px;
+}
+.footer-product ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.footer-product ul {
+    list-style: none;
+}
+.footer-product ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.footer-product ul {
+    list-style: none;
+}
+.footer-company {
+    margin-left: -8px;
+}
+.footer-company h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #fff;
+    margin-top: 120.06px;
+    margin-bottom: 21.75px;
+}
+.footer-company ul {
+    list-style: none;
+}
+.footer-company ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: Roboto;
+    line-height: 40px;
+}
+.footer-company ul {
+    list-style: none;
+}
+.footer-company ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: Roboto;
+    line-height: 40px;
+}
+.footer-services {
+    margin-left: 30px;
+}
+.footer-services h3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: 120.06px;
+    margin-bottom: 21.75px;
+}
+.footer-services ul {
+    list-style: none;
+}
+.footer-services ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+.footer-information ul {
+    list-style: none;
+    display: flex;
+}
+.footer-information ul li a {
+    color: #fff;
+    font-size: 14px;
+    float: right;
+    display: block;
+}
+.footer-information {
+    display: flex;
+}
+.footer-information ul li {
+    padding: 0px 25px;
+    padding-left: 0;
+}
+.footer-copyright p {
+    margin-left: 16px;
+    color: fff;
+}
+.footer-images {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+img.footer-img-1 {
+    bottom: 0;
+}
+.footer-images img {
+    margin: 0;
+}
+img.footer-img-1 {
+    bottom: -135px;
+    position: relative;
+}
+img.footer-img-2 {
+    position: relative;
+    float: right;
+    bottom: -437px;
+}
+img.footer-img-3 {
+    float: right;
+    float: right;
+    position: relative;
+    bottom: -306px;
+    left: 352px;
+}
+
+
+/* footer area end */
+
+
+
+/* Download area start */
+
+.download {
+    margin-bottom: -100px;
+}
+.download-area{
+    background-image: url(img/Rectangle\ 1119.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60px 0;
+    border-radius: 20px;
+}
+.download-content h4 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    width: 370px;
+    color: #fff;
+}
+.download-playstore {
+    display: flex;
+    text-transform: capitalize;
+}
+.google-play {
+    display: flex;
+    align-items: center;
+}
+.apple-play, .google-play {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 60px;
+    padding: 0 20px;
+    height: 60px;
+}
+.apple-play span,.google-play span {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.google-play span, .google-play span {
+    display: block;
+}
+.apple-play p, .google-play p {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.apple-play i, .google-play  i {
+    font-size: 32px;
+    margin-right: 11px;
+}
+.google-play {
+    margin-right: 30px;
+}
+/* Download area end */
